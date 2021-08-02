@@ -5,12 +5,12 @@ namespace JsonOOPS
 {
     class Program
     {
-        const string INVENTORY_JSON =@"C:\Users\HP\source\repos\JsonOOPS\InventoryManagement\Inventory.json";
-        static void Main(string[] args)
+        const string INVENTORY_JSON = @"G:\BRIDGELABZ\OOPSJson\JsonOOPS\InventoryManagement\Inventory.json";
+        public static void Main(string[] args)
         {
-            Console.WriteLine(" Welcome to json program");
+            Console.WriteLine(" Welcome to Json Inventory management program ");
             InventoryMain inv = new InventoryMain();
-            inv.Displaydata(INVENTORY_JSON);
+            inv.ShowOptions(INVENTORY_JSON);
         }
     }
 }

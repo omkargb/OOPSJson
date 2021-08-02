@@ -4,7 +4,7 @@ using System.Text;
 
 namespace JsonOOPS.InventoryManagement
 {
-    class InventoryModal
+   public  class PulsesClass
     {
         public String Name { get; set; }
         public double Weight { get; set; }
